@@ -10,18 +10,18 @@
     },
     {
       "id": 2,
-      "uname": "Jolenar",
-      "email": "Jolenar@gmail.com",
-      "password": "28102004",
-      "cPassword": "28102004",
+      "uname": "Ashraf",
+      "email": "Ashraf@gmail.com",
+      "password": "1962002",
+      "cPassword": "1962002",
       "age": 20
     },
     {
       "id": 3,
-      "uname": "Hasan",
-      "email": "JolenarHasan@gmail.com",
-      "password": "28102004J",
-      "cPassword": "28102004J",
+      "uname": "Nasser",
+      "email": "Nasser@gmail.com",
+      "password": "1962002mn",
+      "cPassword": "1962002mn",
       "age": 20
     }
     
