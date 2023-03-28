@@ -1,0 +1,6 @@
+.backg{
+    background-color: hsl(223.12deg 11.37% 56.27%) !important;
+}
+.backimg{
+    background-image: url('./img/background.jpg');
+}

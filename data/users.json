@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "uname": "Mohammad",
+      "email": "abualnasser04@gmail.com",
+      "password": "0568891980",
+      "cPassword": "0568891980",
+      "age": 20
+    },
+    {
+      "id": 2,
+      "uname": "Jolenar",
+      "email": "Jolenar@gmail.com",
+      "password": "28102004",
+      "cPassword": "28102004",
+      "age": 20
+    },
+    {
+      "id": 3,
+      "uname": "Hasan",
+      "email": "JolenarHasan@gmail.com",
+      "password": "28102004J",
+      "cPassword": "28102004J",
+      "age": 20
+    }
+    
+  ]
+}
