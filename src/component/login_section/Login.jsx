@@ -3,6 +3,8 @@ import Joi from 'joi';
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import style from "./Login.module.css";
+import HomeSlider from './slider/HomeSlider';
+
 export default function Login(props) {
     console.log(props)
     let navigate = useNavigate();
@@ -20,9 +22,9 @@ export default function Login(props) {
         }
         else {
             //show to uesr 
-            let { data } = await axios.get('https://retoolapi.dev/ku3gDX/data');
-            console.log(data);
-            let check = data.find((ele) => {
+            let { data } = await axios.get('https://raw.githubusercontent.com/MohammadNasser-CS/quran_najah/main/data/users.json');
+            console.log(data.users);
+            let check = data.users.find((ele) => {
                 if (ele.email === users.email && ele.password === users.password)
                     return ele;
                 else
@@ -53,6 +55,7 @@ export default function Login(props) {
     }
     return (
         <>
+
             <section className={style.backimg + " fixed overflow-auto"}>
                 <div className="container py-5 h-100">
                     <div className="row d-flex justify-content-center align-items-center h-100">
