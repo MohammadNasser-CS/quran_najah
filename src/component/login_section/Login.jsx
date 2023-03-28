@@ -20,7 +20,7 @@ export default function Login(props) {
         }
         else {
             //show to uesr 
-            let { data } = await axios.post('https://retoolapi.dev/ku3gDX/data',users);
+            let { data } = await axios.get('https://retoolapi.dev/ku3gDX/data');
             console.log(data[0]);
             let check = data.find((ele) => {
                 if (ele.email === users.email && ele.password === users.password)
