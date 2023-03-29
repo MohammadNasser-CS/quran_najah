@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+.fontfamily{
+    font-family: 'Alkatra', cursive;
+    font-size: 3rem;
+    color:rgb(122, 130, 147) !important;
+}
+.backimg{
+    background-color: hsl(0, 0%, 86%) !important;
+    /* background-color: #87751e; */
+    height: 95vh;
+}
+.capfontfamily{
+    color:rgb(122, 130, 147) !important;
+    font-weight: 900;
+}

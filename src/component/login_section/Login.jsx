@@ -3,7 +3,6 @@ import Joi from 'joi';
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import style from "./Login.module.css";
-import HomeSlider from './slider/HomeSlider';
 
 export default function Login(props) {
     console.log(props)

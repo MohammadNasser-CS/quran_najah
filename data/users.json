@@ -23,6 +23,14 @@
       "password": "1962002mn",
       "cPassword": "1962002mn",
       "age": 20
+    },
+    {
+      "id": 4,
+      "uname": "Eid",
+      "email": "Eid@gmail.com",
+      "password": "1122003",
+      "cPassword": "1122003",
+      "age": 20
     }
     
   ]
