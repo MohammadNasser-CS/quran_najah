@@ -4,7 +4,7 @@ import style from "./Home.module.css";
 export default function Home() {
   return (
     < >
-      <section className={style.backimg + " fixed overflow-auto "}>
+      <section className={style.backimg + " fixed overflow-auto"}>
         <div className='container py-5 h-100'>
           <div className={style.chngewrap + ' row d-flex justify-content-center align-items-center'}>
             <p className={style.fontfamily}>ملتقى القرآن الكريم - جنة النجاح </p>
