@@ -19,7 +19,7 @@ export default function Navbar(props) {
                                         <Link className="nav-link  text-white" to="/home">Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link  text-white" to="/">Profile</Link>
+                                        <Link className="nav-link  text-white" to="/profile">Profile</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link  text-white" to="/">Achievements</Link>

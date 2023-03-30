@@ -33,7 +33,7 @@ export default function Login(props) {
                 console.log(check);
                 localStorage.setItem('userToken', check.id);
                 props.getUserData();
-                navigate('/home');
+                navigate('/profile');
             }
         }
     }

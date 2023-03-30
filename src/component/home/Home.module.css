@@ -9,7 +9,20 @@
     /* background-color: #87751e; */
     height: 95vh;
 }
+.widthchange{
+    width: 50% !important;
+}
+
 .capfontfamily{
     color:rgb(122, 130, 147) !important;
     font-weight: 900;
+}
+@media screen and (max-width:991px) {
+    .chngewrap{
+        flex-wrap: wrap !important;
+        gap: 50px;
+    }
+    .widthchange{
+        width: 90% !important;
+    }
 }

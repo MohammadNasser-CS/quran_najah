@@ -4,6 +4,8 @@ import Navbar from "./component/navbar/Navbar";
 import Login from "./component/login_section/Login";
 import Footer from "./component/footer/Footer";
 import Home from "./component/home/Home";
+import Profile from "./component/profile/Profile";
+
 import { useEffect, useState } from "react";
 import ProtectedRoute from "./component/protect/ProtectedRoute";
 
@@ -29,8 +31,9 @@ function App() {
       <Navbar user={userData} logout={logout} />
       <Routes>
         <Route element={<ProtectedRoute />}>
-          <Route path="/home" element={<Home />} />
+        <Route path="/profile" element={<Profile />}></Route>
         </Route>
+          <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />}></Route>
         <Route
           path="login"
@@ -41,5 +44,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
