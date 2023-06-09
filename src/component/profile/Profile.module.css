@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+.pricing_header {
+    max-width: 700px;
+    font-family: 'Alkatra', cursive;
+    font-size: 2rem !important;
+    color:rgb(122, 130, 147) !important;
+}
+.card_deck {
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px
+}
+.card_deck .card {
+    min-width: 220px;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box_shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    background-color: hsl(223.12deg 11.37% 56.27%) !important;
+}
+.backimg{
+    background-color: hsl(0, 0%, 86%) !important;
+    /* background-color: #87751e; */
+    height: 100vh;
+    height: 100vh;
+}
+
+/* 7 - */

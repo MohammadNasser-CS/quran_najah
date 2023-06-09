@@ -16,7 +16,7 @@ export default function Navbar(props) {
                             props.user ? <>
                                 <ul className="navbar-nav me-auto">
                                     <li className="nav-item">
-                                        <Link className="nav-link  text-white" to="/home">Home</Link>
+                                        <Link className="nav-link  text-white" to="/userHome">Home</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link  text-white" to="/profile">Profile</Link>

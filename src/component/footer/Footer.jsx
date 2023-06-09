@@ -1,5 +1,6 @@
 import React from 'react'
 import style from "./Footer.module.css";
+import { Link } from 'react-router-dom';
 export default function Footer() {
     return (
         <>
@@ -9,18 +10,18 @@ export default function Footer() {
                     {/* Section: Social media */}
                     <section className="mb-3">
                         {/* Facebook */}
-                        <a className="btn btn-outline-light btn-floating m-1" target='_blank' href="https://www.facebook.com/%D9%85%D9%84%D8%AA%D9%82%D9%89-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%AD-141778839846391/" role="button"><i className="fab fa-facebook-f" /></a>
+                        <Link className="btn btn-outline-light btn-floating m-1" target='_blank'  to="https://www.facebook.com/%D9%85%D9%84%D8%AA%D9%82%D9%89-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%AD-141778839846391/" role="button"><i className="fab fa-facebook-f" /></Link>
                         {/* Youtube */}
-                        <a className="btn text-red btn-outline-light btn-floating  m-1" href="https://www.youtube.com/channel/UCBILB7nbZ3MsjwdOr39kpuw" target='_blank' role="button"><i className="fab fa-youtube" /></a>
+                        <Link className="btn text-red btn-outline-light btn-floating  m-1" rel='' to="https://www.youtube.com/channel/UCBILB7nbZ3MsjwdOr39kpuw" target='_blank' role="button"><i className="fab fa-youtube" /></Link>
                         {/* SoundCloud */}
-                        <a className="btn text-red btn-outline-light btn-floating  m-1" href="https://www.soundcloud.com/user-610072443" target='_blank' role="button"><i className="fab fa-soundcloud" /></a>
+                        <Link className="btn text-red btn-outline-light btn-floating  m-1" rel='' to="https://www.soundcloud.com/user-610072443" target='_blank' role="button"><i className="fab fa-soundcloud" /></Link>
                     </section>
                     {/* Section: Social media */}
                 </div>
                 {/* Grid container */}
                 <div className="text-center p-2" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
 
-                    <a className="text-white" href="https://mdbootstrap.com/">ملتقى القرآن الكريم - جنة النجاح </a>
+                    <Link className="text-white" target='_blank' to="https://www.facebook.com/%D9%85%D9%84%D8%AA%D9%82%D9%89-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%AD-141778839846391/">ملتقى القرآن الكريم - جنة النجاح </Link>
                 </div>
             </footer>
 

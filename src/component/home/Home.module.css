@@ -1,33 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
-.fontfamily{
+
+.fontfamily {
     font-family: 'Alkatra', cursive;
     font-size: 3rem;
-    color:rgb(122, 130, 147) !important;
+    color: rgb(122, 130, 147) !important;
 }
-.backimg{
+
+.backimg {
     background-color: hsl(0, 0%, 86%) !important;
     /* background-color: #87751e; */
     height: 100vh;
 }
-.widthchange{
+
+.widthchange {
     width: 50% !important;
 }
 
-.capfontfamily{
-    color:rgb(122, 130, 147) !important;
+.capfontfamily {
+    color: rgb(122, 130, 147) !important;
     font-weight: 900;
 }
+
 @media screen and (max-width:991px) {
-    .chngewrap{
+    .chngewrap {
         flex-wrap: wrap !important;
         gap: 50px;
     }
-    .widthchange{
+
+    .widthchange {
         width: 90% !important;
     }
 }
-@media screen and (max-width:767px){
-    .capfontfamily{
+
+@media screen and (max-width:767px) {
+    .capfontfamily {
         font-size: 0.8rem;
     }
 }
