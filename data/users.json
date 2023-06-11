@@ -6,8 +6,7 @@
       "email": "abualnasser04@gmail.com",
       "password": "0568891980",
       "cPassword": "0568891980",
-      "age": 20,
-      "position":"supervisor"
+      "age": 20
     },
     {
       "id": 2,
@@ -15,8 +14,7 @@
       "email": "Ashraf@gmail.com",
       "password": "1962002",
       "cPassword": "1962002",
-      "age": 20,
-      "position":"student"
+      "age": 20
     },
     {
       "id": 3,
@@ -25,7 +23,6 @@
       "password": "1532002",
       "cPassword": "1532002",
       "age": 20
-      "position":"supervisor"
     },
     {
       "id": 4,
@@ -33,9 +30,7 @@
       "email": "Eid@gmail.com",
       "password": "1122003",
       "cPassword": "1122003",
-      "age": 20,
-      "position":"supervisor"
-    }
+      "age": 20    }
     
   ]
 }
