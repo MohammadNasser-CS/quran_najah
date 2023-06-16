@@ -11,7 +11,6 @@
       "studentCollege":"الهندسة",
       "suggestedDate":"2023-06-15",
       "suggestedHour":"11:00",
-      "studentSex":"male"
     },
     {
      "studentName":"عيد مأمون زايد عبد الحليم",
@@ -24,7 +23,6 @@
       "studentCollege":"الطب",
       "suggestedDate":"2023-06-20",
       "suggestedHour":"13:00",
-      "studentSex":"male"
     },
     {
      "studentName":"عميد كامل عبد الرزاق هدهد",
@@ -37,7 +35,6 @@
       "studentCollege":"الفنون",
       "suggestedDate":"2023-06-20",
       "suggestedHour":"13:00",
-      "studentSex":"male"
     },
     {
       "studentName":"نور الدين عبد الكريم محمد ايوب",
@@ -50,7 +47,6 @@
       "studentCollege":"الآداب",
       "suggestedDate":"2023-06-29",
       "suggestedHour":"16:00",
-      "studentSex":"male"
     },
     {
       "studentName":"إسلام مسلم معروف مسلم",
@@ -63,7 +59,6 @@
       "studentCollege":"الآداب",
       "suggestedDate":"2023-07-9",
       "suggestedHour":"10:00",
-      "studentSex":"female"
     },
     {
       "studentName":"جنا نضال محمد طه",
@@ -76,7 +71,6 @@
       "studentCollege":"الهندسة",
       "suggestedDate":"2023-07-24",
       "suggestedHour":"16:00",
-      "studentSex":"female"
     },
     {
       "studentName":"ثراء يوسف سليمان حدوي",
@@ -89,7 +83,6 @@
       "studentCollege":"الفنون",
       "suggestedDate":"2023-07-24",
       "suggestedHour":"16:00",
-      "studentSex":"female"
     }
   ]
 }
