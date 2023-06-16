@@ -83,6 +83,18 @@
       "studentCollege":"الفنون",
       "suggestedDate":"2023-07-24",
       "suggestedHour":"16:00"
+    },
+    {
+      "studentName":"رامه أمجد وليد هواش",
+      "regesterationNumber": "12028005",
+      "phoneNumber": "159",
+      "superVisorName": "جنا نضال محمد طه",
+      "examPlan": "مكثف",
+      "examType": "10",
+      "partNumber":"{11-20}",
+      "studentCollege":"الهندسة",
+      "suggestedDate":"2023-07-29",
+      "suggestedHour":"10:30"
     }
   ]
 }
