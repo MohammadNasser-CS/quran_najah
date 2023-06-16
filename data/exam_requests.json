@@ -6,11 +6,12 @@
       "phoneNumber": "+972568891980",
       "superVisorName": "مصطفى حب رمان",
       "examPlan": "عادي",
-      "examType": "5",
-      "partNumber":"13",
+      "examType": "1",
+      "partNumber":"{13}",
       "studentCollege":"الهندسة",
       "suggestedDate":"2023-06-15",
-      "suggestedHour":"11:00"
+      "suggestedHour":"11:00",
+      "studentSex":"male"
     },
     {
      "studentName":"عيد مأمون زايد عبد الحليم",
@@ -19,10 +20,11 @@
       "superVisorName": "مصطفى حب رمان",
       "examPlan": "عادي",
       "examType": "1",
-      "partNumber":"11",
+      "partNumber":"{11}",
       "studentCollege":"الطب",
       "suggestedDate":"2023-06-20",
-      "suggestedHour":"13:00"
+      "suggestedHour":"13:00",
+      "studentSex":"male"
     },
     {
      "studentName":"عميد كامل عبد الرزاق هدهد",
@@ -34,7 +36,8 @@
       "partNumber":"{1-5}",
       "studentCollege":"الفنون",
       "suggestedDate":"2023-06-20",
-      "suggestedHour":"13:00"
+      "suggestedHour":"13:00",
+      "studentSex":"male"
     },
     {
       "studentName":"نور الدين عبد الكريم محمد ايوب",
@@ -46,8 +49,48 @@
       "partNumber":"{11-20}",
       "studentCollege":"الآداب",
       "suggestedDate":"2023-06-29",
-      "suggestedHour":"16:00"
-    }
+      "suggestedHour":"16:00",
+      "studentSex":"male"
+    },
+    {
+      "studentName":"إسلام مسلم معروف مسلم",
+      "regesterationNumber": "12027941",
+      "phoneNumber": "147",
+      "superVisorName": "جنا نضال محمد طه",
+      "examPlan": "عادي",
+      "examType": "1",
+      "partNumber":"{20}",
+      "studentCollege":"الآداب",
+      "suggestedDate":"2023-07-9",
+      "suggestedHour":"10:00",
+      "studentSex":"female"
+    },
+    {
+      "studentName":"جنا نضال محمد طه",
+      "regesterationNumber": "12010027",
+      "phoneNumber": "258",
+      "superVisorName": "إسلام مسلم معروف مسلم",
+      "examPlan": "عادي",
+      "examType": "1",
+      "partNumber":"{9}",
+      "studentCollege":"الهندسة",
+      "suggestedDate":"2023-07-24",
+      "suggestedHour":"16:00",
+      "studentSex":"female"
+    },
+    {
+      "studentName":"ثراء يوسف سليمان حدوي",
+      "regesterationNumber": "12029453",
+      "phoneNumber": "369",
+      "superVisorName": "جنا نضال محمد طه",
+      "examPlan": "عادي",
+      "examType": "5",
+      "partNumber":"{6-10}",
+      "studentCollege":"الفنون",
+      "suggestedDate":"2023-07-24",
+      "suggestedHour":"16:00",
+      "studentSex":"female"
+    },
     
   ]
 }
