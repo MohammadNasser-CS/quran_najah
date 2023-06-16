@@ -72,6 +72,17 @@
       "suggestedDate":"2023-07-24",
       "suggestedHour":"16:00"
     },
-    
+    {
+      "studentName":"ثراء يوسف سليمان حدوي",
+      "regesterationNumber": "12029453",
+      "phoneNumber": "369",
+      "superVisorName": "جنا نضال محمد طه",
+      "examPlan": "عادي",
+      "examType": "5",
+      "partNumber":"{6-10}",
+      "studentCollege":"الفنون",
+      "suggestedDate":"2023-07-24",
+      "suggestedHour":"16:00"
+    }
   ]
 }
