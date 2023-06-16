@@ -1,7 +1,7 @@
 {
   "exam_requests": [
     {
-      "studentName":"محمد أشرف صيحي ناصر",
+     "studentName":"محمد أشرف صيحي ناصر",
       "regesterationNumber": "12029911",
       "phoneNumber": "+972568891980",
       "superVisorName": "مصطفى حب رمان",
@@ -13,7 +13,7 @@
       "suggestedHour":"11:00",
     },
     {
-     "studentName":"عيد مأمون زايد عبد الحليم",
+      "studentName":"عيد مأمون زايد عبد الحليم",
       "regesterationNumber": "12028606",
       "phoneNumber": "123",
       "superVisorName": "مصطفى حب رمان",
@@ -25,7 +25,7 @@
       "suggestedHour":"13:00",
     },
     {
-     "studentName":"عميد كامل عبد الرزاق هدهد",
+      "studentName":"عميد كامل عبد الرزاق هدهد",
       "regesterationNumber": "12027690",
       "phoneNumber": "456",
       "superVisorName": "مصطفى حب رمان",
@@ -37,7 +37,7 @@
       "suggestedHour":"13:00",
     },
     {
-      "studentName":"نور الدين عبد الكريم محمد ايوب",
+       "studentName":"نور الدين عبد الكريم محمد ايوب",
       "regesterationNumber": "12027771",
       "phoneNumber": "789",
       "superVisorName": "مصطفى حب رمان",
@@ -73,7 +73,7 @@
       "suggestedHour":"16:00",
     },
     {
-      "studentName":"ثراء يوسف سليمان حدوي",
+       "studentName":"ثراء يوسف سليمان حدوي",
       "regesterationNumber": "12029453",
       "phoneNumber": "369",
       "superVisorName": "جنا نضال محمد طه",
@@ -83,6 +83,6 @@
       "studentCollege":"الفنون",
       "suggestedDate":"2023-07-24",
       "suggestedHour":"16:00",
-    }
+    },
   ]
 }
