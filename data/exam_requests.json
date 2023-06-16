@@ -103,71 +103,7 @@
       "suggestedDate":"2023-07-29",
       "suggestedHour":"10:30",
       "studentSex":"أنثى"
-    },
-    {
-      "studentName":"رامه أمجد وليد هواش",
-      "regesterationNumber": "12028005",
-      "phoneNumber": "1519",
-      "superVisorName": "جنا نضال محمد طه",
-      "examPlan": "مكثف",
-      "examType": "10",
-      "partNumber":"{11-20}",
-      "studentCollege":"الهندسة",
-      "suggestedDate":"2023-07-29",
-      "suggestedHour":"10:30",
-      "studentSex":"أنثى"
-    },
-    {
-      "studentName":"رامه أمجد وليد هواش",
-      "regesterationNumber": "12028005",
-      "phoneNumber": "1591",
-      "superVisorName": "جنا نضال محمد طه",
-      "examPlan": "مكثف",
-      "examType": "10",
-      "partNumber":"{11-20}",
-      "studentCollege":"الهندسة",
-      "suggestedDate":"2023-07-29",
-      "suggestedHour":"10:30",
-      "studentSex":"أنثى"
-    },
-    {
-      "studentName":"رامه أمجد وليد هواش",
-      "regesterationNumber": "12028005",
-      "phoneNumber": "159",
-      "superVisorName": "جنا نضال محمد طه",
-      "examPlan": "مكثف",
-      "examType": "10",
-      "partNumber":"{11-20}",
-      "studentCollege":"الهندسة",
-      "suggestedDate":"2023-07-29",
-      "suggestedHour":"10:30",
-      "studentSex":"أنثى"
-    },
-    {
-      "studentName":"رامه أمجد وليد هواش",
-      "regesterationNumber": "12028005",
-      "phoneNumber": "1529",
-      "superVisorName": "جنا نضال محمد طه",
-      "examPlan": "مكثف",
-      "examType": "10",
-      "partNumber":"{11-20}",
-      "studentCollege":"الهندسة",
-      "suggestedDate":"2023-07-29",
-      "suggestedHour":"10:30",
-      "studentSex":"أنثى"
-    },
-    {
-      "studentName":"رامه أمجد وليد هواش",
-      "regesterationNumber": "12028005",
-      "phoneNumber": "1539",
-      "superVisorName": "جنا نضال محمد طه",
-      "examPlan": "مكثف",
-      "examType": "10",
-      "partNumber":"{11-20}",
-      "studentCollege":"الهندسة",
-      "suggestedDate":"2023-07-29",
-      "suggestedHour":"10:30",
-      "studentSex":"أنثى"
     }
+ 
   ]
 }
