@@ -10,7 +10,8 @@
       "partNumber":"{13}",
       "studentCollege":"الهندسة",
       "suggestedDate":"2023-06-15",
-      "suggestedHour":"11:00"
+      "suggestedHour":"11:00",
+      "studentSex":"ذكر" 
     },
     {
       "studentName":"عيد مأمون زايد عبد الحليم",
@@ -22,7 +23,8 @@
       "partNumber":"{11}",
       "studentCollege":"الطب",
       "suggestedDate":"2023-06-20",
-      "suggestedHour":"13:00"
+      "suggestedHour":"13:00",
+      "studentSex":"ذكر" 
     },
     {
       "studentName":"عميد كامل عبد الرزاق هدهد",
@@ -34,7 +36,8 @@
       "partNumber":"{1-5}",
       "studentCollege":"الفنون",
       "suggestedDate":"2023-06-20",
-      "suggestedHour":"13:00"
+      "suggestedHour":"13:00",
+      "studentSex":"ذكر" 
     },
     {
       "studentName":"نور الدين عبد الكريم محمد ايوب",
@@ -46,7 +49,8 @@
       "partNumber":"{11-20}",
       "studentCollege":"الآداب",
       "suggestedDate":"2023-06-29",
-      "suggestedHour":"16:00"
+      "suggestedHour":"16:00",
+      "studentSex":"ذكر" 
     },
      {
       "studentName":"إسلام مسلم معروف مسلم",
@@ -58,7 +62,8 @@
       "partNumber":"{20}",
       "studentCollege":"الآداب",
       "suggestedDate":"2023-07-9",
-      "suggestedHour":"10:00"
+      "suggestedHour":"10:00",
+       "studentSex":"أنثى" 
     },
     {
       "studentName":"جنا نضال محمد طه",
@@ -70,7 +75,8 @@
       "partNumber":"{9}",
       "studentCollege":"الهندسة",
       "suggestedDate":"2023-07-24",
-      "suggestedHour":"16:00"
+      "suggestedHour":"16:00",
+      "studentSex":"أنثى"
     },
     {
       "studentName":"ثراء يوسف سليمان حدوي",
@@ -82,7 +88,8 @@
       "partNumber":"{6-10}",
       "studentCollege":"الفنون",
       "suggestedDate":"2023-07-24",
-      "suggestedHour":"16:00"
+      "suggestedHour":"16:00",
+      "studentSex":"أنثى"
     },
     {
       "studentName":"رامه أمجد وليد هواش",
@@ -94,7 +101,8 @@
       "partNumber":"{11-20}",
       "studentCollege":"الهندسة",
       "suggestedDate":"2023-07-29",
-      "suggestedHour":"10:30"
+      "suggestedHour":"10:30",
+      "studentSex":"أنثى"
     }
   ]
 }
