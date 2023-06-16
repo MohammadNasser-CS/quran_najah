@@ -20,7 +20,7 @@
       "examPlan": "عادي",
       "examType": "1",
       "partNumber":"11",
-      "studentCollege":"الهندسة",
+      "studentCollege":"الطب",
       "suggestedDate":"2023-06-20",
       "suggestedHour":"13:00"
     },
@@ -32,7 +32,7 @@
       "examPlan": "مكثف",
       "examType": "5",
       "partNumber":"{1-5}",
-      "studentCollege":"الهندسة",
+      "studentCollege":"الفنون",
       "suggestedDate":"2023-06-20",
       "suggestedHour":"13:00"
     },
@@ -44,7 +44,7 @@
       "examPlan": "تثبيت",
       "examType": "10",
       "partNumber":"{11-20}",
-      "studentCollege":"الهندسة",
+      "studentCollege":"الآداب",
       "suggestedDate":"2023-06-29",
       "suggestedHour":"16:00"
     }
