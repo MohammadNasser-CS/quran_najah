@@ -37,7 +37,7 @@
       "suggestedHour":"13:00"
     },
     {
-       "studentName":"نور الدين عبد الكريم محمد ايوب",
+      "studentName":"نور الدين عبد الكريم محمد ايوب",
       "regesterationNumber": "12027771",
       "phoneNumber": "789",
       "superVisorName": "مصطفى حب رمان",
@@ -47,6 +47,19 @@
       "studentCollege":"الآداب",
       "suggestedDate":"2023-06-29",
       "suggestedHour":"16:00"
-    }
+    },
+     {
+      "studentName":"إسلام مسلم معروف مسلم",
+      "regesterationNumber": "12027941",
+      "phoneNumber": "147",
+      "superVisorName": "جنا نضال محمد طه",
+      "examPlan": "عادي",
+      "examType": "1",
+      "partNumber":"{20}",
+      "studentCollege":"الآداب",
+      "suggestedDate":"2023-07-9",
+      "suggestedHour":"10:00"
+    },
+    
   ]
 }
