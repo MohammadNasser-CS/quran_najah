@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "uname": "Mohammad",
+      "uname": "محمد أشرف صبحي ناصر",
       "email": "abualnasser04@gmail.com",
       "password": "0568891980",
       "cPassword": "0568891980",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "uname": "Ashraf",
+      "uname": "محمد أشرف ناصر",
       "email": "Ashraf@gmail.com",
       "password": "1962002",
       "cPassword": "1962002",
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "uname": "Islam",
+      "uname": "إسلام مسلم معروف مسلم",
       "email": "islammsalam2002@gmail.com",
       "password": "1532002",
       "cPassword": "1532002",
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "uname": "Eid",
+      "uname": "عيد مأمون عبد الحليم",
       "email": "Eid@gmail.com",
       "password": "1122003",
       "cPassword": "1122003",
