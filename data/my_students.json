@@ -3,7 +3,7 @@
   "groupName":"هذه سبيلي",
   "collegeName":"الهندسة",
   "collegeNumber":"11",
-  "my_students": [
+  "students": [
     {
       "id": "12029911",
       "phoneNumber":"0568891980"
