@@ -10,7 +10,7 @@
       "uname":"محمد أشرف صبحي ناصر",
       "email": "abualnasser04@gmail.com",
       "plan": "عادي",
-      "tajweed": "0",
+      "tajweed": "0"
     },
     {
        "id": "12028606",
@@ -18,7 +18,7 @@
       "uname":"عيد مأمون زايد عبد الحليم",
       "email": "eid@gmail.com",
       "plan": "عادي",
-      "tajweed": "0",
+      "tajweed": "0"
      
     },
     {
@@ -27,7 +27,7 @@
       "uname":"نورالدين عبدالكريم محمد أيوب",
       "email": "nour@gmail.com",
       "plan": "عادي",
-      "tajweed": "0",
+      "tajweed": "0"
     },
     {
      "id": "12027690",
@@ -35,7 +35,7 @@
       "uname":"عميد كامل عبدالرزاق هدهد",
       "email": "ameed@gmail.com",
       "plan": "عادي",
-      "tajweed": "0",
+      "tajweed": "0"
     },
     {
      "id": "12029911",
@@ -43,7 +43,7 @@
       "uname":"محمد أشرف صبحي ناصر",
       "email": "abualnasser04@gmail.com",
       "plan": "عادي",
-      "tajweed": "0",
+      "tajweed": "0"
     },
     {
      "id": "12029911",
@@ -51,7 +51,7 @@
       "uname":"محمد أشرف صبحي ناصر",
       "email": "abualnasser04@gmail.com",
       "plan": "عادي",
-      "tajweed": "0",
+      "tajweed": "0"
     },
     {
      "id": "12029911",
@@ -59,16 +59,7 @@
       "uname":"محمد أشرف صبحي ناصر",
       "email": "abualnasser04@gmail.com",
       "plan": "عادي",
-      "tajweed": "0",
-    },
-    
-    {
-     "id": "12029911",
-      "phoneNumber":"0568891980"
-      "uname":"محمد أشرف صبحي ناصر",
-      "email": "abualnasser04@gmail.com",
-      "plan": "عادي",
-      "tajweed": "0",
+      "tajweed": "0"
     },
     
     {
@@ -77,7 +68,16 @@
       "uname":"محمد أشرف صبحي ناصر",
       "email": "abualnasser04@gmail.com",
       "plan": "عادي",
-      "tajweed": "0",
+      "tajweed": "0"
+    },
+    
+    {
+     "id": "12029911",
+      "phoneNumber":"0568891980"
+      "uname":"محمد أشرف صبحي ناصر",
+      "email": "abualnasser04@gmail.com",
+      "plan": "عادي",
+      "tajweed": "0"
     }
   ]
 }
