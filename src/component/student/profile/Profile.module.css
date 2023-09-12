@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+.pricing_header {
+    max-width: 700px;
+    font-family: 'Alkatra', cursive;
+    font-size: 2rem !important;
+    color: rgb(122, 130, 147) !important;
+}
+
+.card_deck {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: row;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box_shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    background-color: hsl(223.12deg 11.37% 56.27%) !important;
+    min-width: 220px !important;
+}
+
+.backimg {
+    background-color: hsl(0, 0%, 86%) !important;
+    /* background-color: #87751e; */
+    height: 100vh;
+    height: 100vh;
+}
+
+
+@media (max-width: 767px) {
+.card_deck{
+  gap: 1rem !important;
+  word-wrap: normal;
+}
+.pricing_header{
+    max-width: 350px;
+    font-size: 1.5rem !important;
+}
+}
+@media (min-width: 576px){
+    .card_deck{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.card_deck .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+}

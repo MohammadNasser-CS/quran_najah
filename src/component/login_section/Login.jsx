@@ -9,7 +9,7 @@ export default function Login(props) {
     let navigate = useNavigate();
     let [validList, setValidList] = useState([]);
     let [users, setUsers] = useState({
-        email: '',
+        User_no: '',
         password: '',
     });
     async function submitHandling(Event) {
@@ -20,27 +20,35 @@ export default function Login(props) {
             setValidList(validatationResult.error.details);
         }
         else {
-            //show to uesr 
-            let { data } = await axios.get('https://raw.githubusercontent.com/MohammadNasser-CS/quran_najah/main/data/users.json');
-            console.log(data.users);
-            let check = data.users.find((ele) => {
-                if (ele.email === users.email && ele.password === users.password)
-                    return ele;
-                else
-                    return null;
-            });
-            if (check != null) {
-                console.log(check);
-                localStorage.setItem('userToken', check.id);
+            //show to uesr // 
+            let { data } = await axios.post('http://localhost/multaqa/api/login.php',users);
+            console.log(data.login);
+            if (data.login.message === 'success') {
+                localStorage.setItem('userToken', data.login.User_id);
+                localStorage.setItem('userPosition', data.login.type);
                 props.getUserData();
-                navigate('/profile');
+                props.getUserPosition();
+                if (data.login.type === '5') {
+                    navigate('/profile');
+                } else if (data.login.type === '4') {
+                    navigate('/report');
+                } else if (data.login.type === '3') {
+                    navigate('/college_admin');
+                } else if (data.login.type === '2') {
+                    navigate('/add_student');
+                } else if (data.login.type === '1') {
+                    navigate('/moltaqa_status');
+                }
             }
         }
     }
     function inputValidation(user) {
         let schema = Joi.object({
-            email: Joi.string().email({ minDomainSegments: 1, tlds: { allow: ['com'] } }),
-            password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')).messages({
+            User_no: Joi.string().pattern(new RegExp('[0-9]{4,8}')).message({
+                "string.pattern.base": "inputs is not valid , must be 0-9",
+                'string.empty': 'password is required , pleaz enter it'
+            }),
+            password: Joi.string().pattern(new RegExp('[0-9]{4,8}')).messages({
                 "string.pattern.base": "inputs is not valid , must be a-z or A-z or 0-9",
                 'string.empty': 'password is required , pleaz enter it'
             }),
@@ -50,11 +58,11 @@ export default function Login(props) {
     function getUserData(Event) {
         let userTemp = users;
         userTemp[Event.target.name] = Event.target.value;
+        console.log(userTemp);
         setUsers(userTemp);
     }
     return (
         <>
-
             <section className={style.backimg + " fixed overflow-auto"}>
                 <div className="container py-5 h-100">
                     <div className="row d-flex justify-content-center align-items-center h-100">
@@ -62,11 +70,14 @@ export default function Login(props) {
                             <div className={style.backg + " card  text-white"} style={{ borderRadius: '4rem' }}>
                                 <div className="card-body p-5 text-center">
                                     <div className="mb-md-5 mt-md-4">
+                                        {
+                                            validList.map((error, index) => <div className='alert alert-danger'>{error.message}</div>)
+                                        }
                                         <img src={require('./img/logo1.jpg')} className="w-25" alt='' />
                                         <form onSubmit={submitHandling}>
                                             <p className="text-white-50 mb-5 mt-5">Please enter your email and password!</p>
                                             <div className="form-outline form-white mb-4">
-                                                <input onChange={getUserData} name='email' type="email" id="typeEmailX" className="form-control form-control-lg" />
+                                                <input onChange={getUserData} name='User_no' type="text" id="typeEmailX" className="form-control form-control-lg" />
                                                 <label className="form-label" htmlFor="typeEmailX">Email</label>
                                             </div>
                                             <div className="form-outline form-white mb-4">

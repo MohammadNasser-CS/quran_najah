@@ -1,0 +1,7 @@
+.backg {
+    background-color: hsl(223, 18%, 77%) !important;
+}
+
+.backimg{
+    background-image: url('./img/img4.webp');
+}

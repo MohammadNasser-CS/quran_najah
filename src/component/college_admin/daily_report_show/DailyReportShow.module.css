@@ -1,0 +1,7 @@
+.backimg {
+    background-image: url('./img/img11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    /* background-color:#b4ad96; */
+}

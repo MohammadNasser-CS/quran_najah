@@ -9,38 +9,31 @@ export default function Home() {
           <div className={style.chngewrap + ' row d-flex justify-content-center align-items-center'}>
             <p className={style.fontfamily}>ملتقى القرآن الكريم - جنة النجاح </p>
             <Carousel className={style.widthchange }>
-              <Carousel.Item>
+              <Carousel.Item >
                 <img
-                  className="d-block w-100 m-auto"
-                  src={require('./img/first.jpg')}
+                  className={style.carousel + " d-block w-100 m-auto"}
+                  src={require('./img/img2.jpg')}
                   alt="First slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100 m-auto"
-                  src={require('./img/second.jpg')}
+                  className={style.carousel + " d-block w-100 m-auto"}
+                  src={require('./img/img3.jpg')}
                   alt="Second slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100 m-auto"
-                  src={require('./img/third.jpg')}
+                  className={style.carousel + " d-block w-100 m-auto"}
+                  src={require('./img/img4.jpg')}
                   alt="Third slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100 m-auto"
-                  src={require('./img/fourth.jpg')}
-                  alt="Third slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100 m-auto"
-                  src={require('./img/fifth.jpg')}
+                  className={style.carousel + " d-block w-100 m-auto"}
+                  src={require('./img/img5.jpg')}
                   alt="Third slide"
                 />
               </Carousel.Item>
@@ -48,21 +41,21 @@ export default function Home() {
             <Carousel className={style.widthchange }>
               <Carousel.Item>
                 <img
-                  className="d-block w-100 m-auto"
+                  className={style.carousel + " d-block w-100 m-auto"}
                   src={require('./img/himam.jpg')}
                   alt="First slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100 m-auto"
+                  className={style.carousel + " d-block w-100 m-auto"}
                   src={require('./img/himam1.jpg')}
                   alt="Second slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100 m-auto"
+                  className={style.carousel + " d-block w-100 m-auto"}
                   src={require('./img/himam.jpg')}
                   alt="Third slide"
                 />
