@@ -21,7 +21,7 @@ export default function Login(props) {
         }
         else {
             //show to uesr // 
-            let { data } = await axios.post('http://localhost/multaqa/api/login.php',users);
+            let { data } = await axios.post('https://qurannajah02.000webhostapp.com/api/login.php',users);
             console.log(data.login);
             if (data.login.message === 'success') {
                 localStorage.setItem('userToken', data.login.User_id);
