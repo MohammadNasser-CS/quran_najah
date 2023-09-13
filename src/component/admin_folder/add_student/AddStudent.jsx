@@ -59,7 +59,7 @@ export default function AddStudent() {
         college_name: '',
         specialization: '',
     });
-    let [errorMessage, setErrorMessage] = useState('[]');
+    let [errorMessage, setErrorMessage] = useState(null);
     async function submitHandling() {
         
         let { data } = await axios.post('http://localhost/multaqa/api/insert_new_student.php', student);
@@ -100,7 +100,7 @@ export default function AddStudent() {
                                         <div className="card-body p-md-5 text-black">
                                             <h3 className="mb-5 text-uppercase">إضافة طالب</h3>
                                             {
-                                                 <div className='alert alert-danger'>{errorMessage}</div>
+                                                errorMessage!=null? <div className='alert alert-danger'>{errorMessage}</div>:null
                                             }
                                             <div className="row">
                                                 <div className="col-md-12 mb-4">

@@ -75,17 +75,16 @@ export default function Login(props) {
                                         }
                                         <img src={require('./img/logo1.jpg')} className="w-25" alt='' />
                                         <form onSubmit={submitHandling}>
-                                            <p className="text-white-50 mb-5 mt-5">Please enter your email and password!</p>
+                                            <p className="text-white-50 mb-5 mt-5">الرجاء إدخال رقم التسجيل وكلمة المرور</p>
                                             <div className="form-outline form-white mb-4">
                                                 <input onChange={getUserData} name='User_no' type="text" id="typeEmailX" className="form-control form-control-lg" />
-                                                <label className="form-label" htmlFor="typeEmailX">Email</label>
+                                                <label className="form-label" htmlFor="typeEmailX">رقم التسجيل</label>
                                             </div>
                                             <div className="form-outline form-white mb-4">
                                                 <input onChange={getUserData} name='password' type="password" id="typePasswordX" className="form-control form-control-lg" />
-                                                <label className="form-label" htmlFor="typePasswordX">Password</label>
+                                                <label className="form-label" htmlFor="typePasswordX">كلمة المرور</label>
                                             </div>
-                                            <p className="small mb-3 pb-lg-2"><a className="text-white-50" href="#!">Forgot password?</a></p>
-                                            <button className="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+                                            <button className="btn btn-outline-light btn-lg px-5" type="submit">تسجيل دخول</button>
                                         </form>
                                     </div>
                                 </div>

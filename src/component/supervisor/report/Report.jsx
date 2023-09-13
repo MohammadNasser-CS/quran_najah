@@ -59,7 +59,7 @@ export default function Report(props) {
     }
     function submitReport(ele) {
         Swal.fire({
-            title: 'رفع العلامة',
+            title: 'رفع التقرير',
             html: `
             <input id="savedPages" class="swal2-input" type="text" />
             <label className="form-label" htmlFor="StudentName">عدد صفحات الحفظ</label>
