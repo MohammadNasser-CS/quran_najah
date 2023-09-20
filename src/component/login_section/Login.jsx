@@ -20,25 +20,29 @@ export default function Login(props) {
             setValidList(validatationResult.error.details);
         }
         else {
-            //show to uesr // 
-            let { data } = await axios.post('https://qurannajah02.000webhostapp.com/api/login.php',users);
-            console.log(data.login);
-            if (data.login.message === 'success') {
-                localStorage.setItem('userToken', data.login.User_id);
-                localStorage.setItem('userPosition', data.login.type);
-                props.getUserData();
-                props.getUserPosition();
-                if (data.login.type === '5') {
-                    navigate('/profile');
-                } else if (data.login.type === '4') {
-                    navigate('/report');
-                } else if (data.login.type === '3') {
-                    navigate('/college_admin');
-                } else if (data.login.type === '2') {
-                    navigate('/add_student');
-                } else if (data.login.type === '1') {
-                    navigate('/moltaqa_status');
+            //show to uesr //
+            try {
+                let { data } = await axios.post('http://localhost/multaqa/api/login.php', users);
+                console.log(data.login);
+                if (data.login.message === 'success') {
+                    localStorage.setItem('userToken', data.login.User_id);
+                    localStorage.setItem('userPosition', data.login.type);
+                    props.getUserData();
+                    props.getUserPosition();
+                    if (data.login.type === '5') {
+                        navigate('/profile');
+                    } else if (data.login.type === '4') {
+                        navigate('/report');
+                    } else if (data.login.type === '3') {
+                        navigate('/college_admin');
+                    } else if (data.login.type === '2') {
+                        navigate('/add_student');
+                    } else if (data.login.type === '1') {
+                        navigate('/moltaqa_status');
+                    }
                 }
+            } catch (error) {
+                console.error("Error in POST request:", error);
             }
         }
     }
@@ -60,6 +64,13 @@ export default function Login(props) {
         userTemp[Event.target.name] = Event.target.value;
         console.log(userTemp);
         setUsers(userTemp);
+    }
+    function testLogin(){
+        localStorage.setItem('userToken', '9999');
+                    localStorage.setItem('userPosition', 'tester');
+                    props.getUserData();
+                    props.getUserPosition();
+                    navigate('/profile');
     }
     return (
         <>
@@ -84,7 +95,8 @@ export default function Login(props) {
                                                 <input onChange={getUserData} name='password' type="password" id="typePasswordX" className="form-control form-control-lg" />
                                                 <label className="form-label" htmlFor="typePasswordX">كلمة المرور</label>
                                             </div>
-                                            <button className="btn btn-outline-light btn-lg px-5" type="submit">تسجيل دخول</button>
+                                            <button className="btn btn-outline-light btn-lg px-5" type="submit">تسجيل دخول</button><br></br>
+                                            <button className="btn btn-outline-light btn-lg px-5 mt-5" onClick={testLogin}>دخول تجريبي</button>
                                         </form>
                                     </div>
                                 </div>

@@ -25,7 +25,7 @@ export default function MoltaqaStatus() {
                     <div className={style.card_deck + " row grid gap-3 d-flex justify-content-center "}>
                         <div className={style.box_shadow + " text-white d-flex mb-5 col-3 card"}>
                             <div className="card-header">
-                                <h4 className="my-0 font-weight-normal">عدد صفحات الحفظ</h4>
+                                <h4 className="my-0 font-weight-normal">محصلة الحفظ لهذا الفصل</h4>
                             </div>
                             <div className="card-body">
                                 <h1 className=" card-title pricing-card-title">
@@ -44,7 +44,7 @@ export default function MoltaqaStatus() {
                         </div>
                         <div className={style.box_shadow + "  text-white card mb-5 d-flex col-3"}>
                             <div className="card-header">
-                                <h4 className="my-0 font-weight-normal">عدد صفحات المراجعة</h4>
+                                <h4 className="my-0 font-weight-normal">محصلة المراجعة لهذا الفصل</h4>
                             </div>
                             <div className="card-body">
                                 <h1 className="card-title pricing-card-title">{multaqaStutas.no_of_review_pages}</h1>
@@ -58,7 +58,7 @@ export default function MoltaqaStatus() {
                         </div>
                         <div className={style.box_shadow + "  text-white card mb-5 d-flex col-3 ="}>
                             <div className="card-header">
-                                <h4 className="my-0 font-weight-normal">عدد الامتحانات الكلي</h4>
+                                <h4 className="my-0 font-weight-normal">محصلة الإمتحانات لهذا الفصل</h4>
                             </div>
                             <div className="card-body">
                                 <h1 className="card-title pricing-card-title">{multaqaStutas.no_of_exam}</h1>

@@ -16,7 +16,7 @@ export default function Navbar(props) {
                         <ul className="navbar-nav me-auto">
                             {
                                 // student .
-                                (props.userPosition === '5'||props.userPosition === '4'||props.userPosition === '3') ? <>
+                                (props.userPosition === '5'||props.userPosition === '4'||props.userPosition === '3' || props.userPosition==='tester') ? <>
                                     <li className="nav-item ">
                                         <Link className="nav-link border rounded me-2 text-white" to="/exams">طلب إمتحان</Link>
                                     </li>
@@ -27,7 +27,7 @@ export default function Navbar(props) {
                             }
                             {
                                 // supervisor . 
-                                (props.userPosition === '4'||props.userPosition === '3' ) ? <>
+                                (props.userPosition === '4'||props.userPosition === '3' || props.userPosition==='tester' ) ? <>
                                     <li className="nav-item">
                                         <Link className="nav-link border rounded  me-2 text-white" to="/report">التقارير</Link>
                                     </li>
@@ -38,7 +38,7 @@ export default function Navbar(props) {
                             }
                             {
                                 // college admin .
-                                props.userPosition === '3' ? <>
+                                (props.userPosition === '3' || props.userPosition==='tester') ? <>
                                     <li className="nav-item">
                                         <Link className="nav-link border rounded  me-2 text-white" to="/college_admin">الصفحة الرئيسية</Link>
                                     </li>
@@ -46,7 +46,7 @@ export default function Navbar(props) {
                             }
                             {
                                 //  admin .
-                                props.userPosition === '2' ? <>
+                                (props.userPosition === '2' || props.userPosition==='tester') ? <>
                                     <li className="nav-item">
                                         <Link className="nav-link border rounded  me-2 text-white" to="/add_student">إضافة طالب</Link>
                                     </li>
@@ -54,7 +54,7 @@ export default function Navbar(props) {
                             }
                             {
                                 // doctor .
-                                props.userPosition === '1' ? <>
+                                (props.userPosition === '1' || props.userPosition==='tester') ? <>
                                     <li className="nav-item">
                                         <Link className="nav-link border rounded  me-2 text-white" to="/moltaqa_status">إحصائية الملتقى</Link>
                                     </li>

@@ -40,23 +40,23 @@ export default function Home() {
             </Carousel >
             <Carousel className={style.widthchange }>
               <Carousel.Item>
-                <img
+              <img
                   className={style.carousel + " d-block w-100 m-auto"}
-                  src={require('./img/himam.jpg')}
-                  alt="First slide"
+                  src={require('./img/img5.jpg')}
+                  alt="Third slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <img
+              <img
                   className={style.carousel + " d-block w-100 m-auto"}
-                  src={require('./img/himam1.jpg')}
-                  alt="Second slide"
+                  src={require('./img/img5.jpg')}
+                  alt="Third slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <img
+              <img
                   className={style.carousel + " d-block w-100 m-auto"}
-                  src={require('./img/himam.jpg')}
+                  src={require('./img/img5.jpg')}
                   alt="Third slide"
                 />
               </Carousel.Item>
