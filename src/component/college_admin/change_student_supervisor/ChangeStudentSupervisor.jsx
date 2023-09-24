@@ -12,7 +12,6 @@ export default function ChangeStudentSupervisor() {
         supervisor_id_old: '',
     });
     function searchStudentByName(Event) {
-        let search = document.getElementById("studentName");
         let tBodyData = students.map((ele, index) => {
             if (ele.studentName.includes(Event.target.value)) {
                 return <tr key={index}>
@@ -29,7 +28,6 @@ export default function ChangeStudentSupervisor() {
         setFlag(!flag)
     }
     function searchStudentByID(Event) {
-        let search = document.getElementById("studentID");
         //console.log(search.value);
         //console.log(students);
         let tBodyData = students.map((ele, index) => {

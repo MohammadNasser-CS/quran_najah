@@ -5,7 +5,6 @@ import Swal from 'sweetalert2';
 export default function Exam_Requests(props) {
     console.log(props.user);
     let [examRequests, setExamRequests] = useState([]);
-    let [examinatorData, setExaminatorData] = useState({});
     let selectedCollegeValue = '0';
     let selectedExamPlanValue = '0';
     let selectedExamTypeValue = '0'
@@ -397,7 +396,7 @@ export default function Exam_Requests(props) {
             <section className={style.backimg + " overflow-hidden d-flex align-items-center"} >
                 <div className="container  ">
                     <div className=" mb-3  align-items-center m-auto row">
-                        <select id="college" onChange={fillTableAfterChoice} className="select col-5 mt-3 me-3 p-3 overflow-hidden">
+                        <select id="college" onChange={fillTableAfterChoice}  className="select col-5 mt-3 me-3 p-3 overflow-hidden">
                             <option value={"0"}>الكلية</option>
                             <option value={"الهندسة"}>الهندسة</option>
                             <option value={"الطب"}>الطب</option>
